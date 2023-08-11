@@ -1,6 +1,6 @@
-# Frontend Mentor - Results summary component
+# Clique na foto para acessar meu site!
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+ <a href="https://antoniomesquit.github.io/results-summary-component/" target="_blank" rel="external"><img src="assets/images/Screenshot 2023-08-10 233958.png" alt="site-on"></a>
 
 ## Welcome! 👋
 
