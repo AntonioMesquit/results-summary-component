@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/*font-family: 'Hanken Grotesk', sans-serif;*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk';
+    color: white;
+}
+.card{
+    background-color: #ffffff;
+    display: flex;
+    height: 430px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.092);
+    width: 600px;
+    transition: 1s;
+}
+.part1{
+    width: 50%;
+    background-image: linear-gradient(to bottom, hsl(252, 51%, 49%) , hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+}
+.x{
+color: #CBBFFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.circle{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.td{
+   width: 150px;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   border-radius: 50%;
+   background: radial-gradient(circle, rgb(76, 34, 203), rgb(41, 25, 145));
+   margin-bottom: 20px;
+}
+.unir{
+    display: flex;
+}
+.number{
+    font-size: 50px;
+}
+.x1 , .x2{
+    color: #CBBFFF;
+    font-weight: 500        ;
+}
+.x2{
+    padding-left: 5px;
+}
+.text{
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.txz{
+    font-size: 16px;
+    font-weight: 500;
+    color: #CBBFFF;
+    
+
+}
+.part2{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-top: 27px;
+    padding-right: 25px;
+    width: 50%;
+}
+.title2{
+    margin-bottom: 20px;
+}
+.bl{
+   color: #292F49;
+   font-weight: 900;
+   font-size: 22px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, 0.08);
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+.cont1{
+    display: flex;
+  
+}
+.cont2{
+    display: flex;
+}
+.tex{
+    padding-left: 10px;
+    font-size: 18px;
+    color: hsl(0, 100%, 67%);
+}
+.n3{
+    padding-left: 4px;
+    color: #292f4994;
+    font-weight: 700;
+}
+.n2{
+    padding-left: 6px;
+    color: #292f498b;
+    font-weight: 900;
+}
+.n1{
+    font-weight: 900;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(39, 100%, 56%, 0.08);
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(166, 100%, 37%, 0.08);
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.box4{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(234, 85%, 45%, 0.08);
+    padding: 15px;
+    border-radius: 8px;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+.tex1{
+      color: hsl(39, 100%, 56%);
+      padding-left: 10px;
+      font-size: 18px;
+}
+.tex2{
+    padding-left: 10px;
+    font-size: 18px;
+    color: hsl(166, 100%, 37%);
+
+}
+.tex3{
+    padding-left: 10px;
+    font-size: 18px;
+    color: hsl(234, 85%, 45%);
+
+}
+.butin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+    
+
+}
+.vi{
+    border: none;
+    padding: 15px;
+    background-color: rgb(48, 59, 89);
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+    font-weight: 700;   
+}
+.vi:hover{
+    background-color: rgba(48, 59, 89, 0.751);
+    transition: 2s;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px){
+    
+    .card{
+        flex-direction: column;
+        width: 300px;
+        
+    }
+    .part1,.part2{
+        width: 100%;
+    }
+    .part2{
+        background-color: white;
+        box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.092);
+    }
+    body{
+        height: 100vh;
+        align-items: normal;
+        justify-content: center;
+        align-content: normal;
+    }
+    .txz{
+        margin-bottom: 10px;
+    }
+    
+}
